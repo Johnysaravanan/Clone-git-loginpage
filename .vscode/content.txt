@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="head">
+        <label id="h1">Sign in to GitHub</label>
+        <div class="container">
+            <img src="github2.png" alt="Githubicon">
+        </div>
+    </div>
+         
+    <div id="box">
+        <form>
+            <!--username-->
+            <label for="user">Username or email address</label><br>
+            <input type="text" name="username" id="user"><br>
+            <!--password-->
+            <label for="pass">Password</label>
+            <a href="#">Forgot Password?</a><br>
+            <input type="text" name="Password" id="pass"><br>
+            <input type="submit" value="Sign in">
+        </form>
+    </div>
+    <div class="box2">
+        <span>New to GitHub?<a href="#">Create an account</a>.</span>
+    </div>
+
+    
+    <Footer>
+        <label for="">terms</label>
+        <label for="">privacy</label>
+        <label for="">Security</label>
+        <label for="">Contact Github</label>
+    </Footer>
+
+    
+</body>
+</html>

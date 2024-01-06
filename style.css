@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    line-height: 1.5;
+    
+}
+div{
+    display: block;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    background-color: transparent;
+    border-bottom: 0;
+    padding-top: 34px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.form{
+    padding-right: 16px;
+    padding-left: 16px;
+    width: 340px;
+    margin: 0 auto;
+}
+.head{
+    margin-bottom: 16px;
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin-top: 1dvb;
+}
+.main5{
+    padding: 16px;
+    font-size: 14px;
+    border: .5px solid gray ;
+    border-top: 1;
+    border-radius: 5px 5px 6px 6px;
+}
+.main5 label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight:  400;
+    text-align: left;
+    font-size: 16px;
+}
+.form-input{
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: transparent;
+    background-position: right 8px center;
+    border: .5px solid ;
+    border-radius: 6px;
+    box-shadow: 1px;
+    display: block;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 16px;
+    background-color: #27c500;
+    position: relative;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight:  bold;
+    line-height: 20px;
+    cursor: pointer;
+    border: .001px solid;
+    border-radius: 6px;
+}
+.sub{
+    padding: 16px 16px;
+    text-align: center;
+    border: 1px solid ;
+    border-radius: 6px;
+}
+.order{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+footer{
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.list{
+    margin-right: 18px;
+}
+a{
+    text-decoration: none;
+    color: #388bfd;
+}
+.li1{
+    color: rgba(172, 172, 172, 0.929);
+}
